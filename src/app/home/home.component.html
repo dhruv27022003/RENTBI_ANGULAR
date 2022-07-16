@@ -1,0 +1,17 @@
+<app-search></app-search>
+<app-tags></app-tags>
+
+<ul>
+  <li *ngFor="let bike of bikes">
+    <a routerLink="/ride/{{bike.id}}">
+      <img src="{{ bike.url }}" alt="bike images" />
+      <div>{{ bike.name }}</div>
+
+      <!-- <ngb-rating [max]="5" [totalstars]="3" [readonly]="false"></ngb-rating> -->
+      <ngb-rating [max]="5" [rate]="bike.star" [readonly]="false"></ngb-rating>
+      <div class="pr">₹{{ bike.price }}</div>
+    </a>
+  </li>
+</ul>
+
+<script></script>

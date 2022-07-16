@@ -1,0 +1,27 @@
+
+div{
+    margin-top: 5vh;
+    align-items: center;
+    text-align: center;
+}
+
+
+.yo{
+    color: aliceblue;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+    margin-right: 0px;
+    padding-right: 0;
+    padding: 5px;
+}
+
+.yo:hover{
+    border: 1px solid red;
+    color: red;
+}
+
+.bb{
+    color: rgb(121, 114, 114);
+}

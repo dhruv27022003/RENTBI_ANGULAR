@@ -1,0 +1,72 @@
+.contai {
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+}
+img {
+  margin-top: 0;
+  top: 10vh;
+  width: 100vw;
+
+  position: fixed;
+  z-index: -1;
+}
+.naam {
+  color: rgb(255, 253, 253);
+  position: relative;
+
+  /* text-shadow: 0 0 10px #9e1e1e, 0 0 100px #7c7c80; */
+  text-shadow: -1px 1px 0 #000, 1px 1px 0 rgb(0, 0, 0), 1px -1px 0 #000,
+    -1px -1px 0 #000;
+  font-size: 7vh;
+  z-index: 1;
+  top: 3vh;
+  margin-left: -3vw;
+}
+.naam:hover{
+  cursor: pointer;
+  color: #e72929;
+}
+.uo {
+  font-family: mocando;
+  font-weight: bold;
+  font-style: italic;
+  align-items: center;
+  text-align: center;
+  padding-left: 3vw;
+  opacity: 0.5;
+  width: 30vw;
+  margin-top: 20vh;
+  margin-left: 5vw;
+  height: 40vh;
+  transform: skew(-10deg, 0);
+  background-color: rgb(0, 0, 0);
+  z-index: -1;
+
+}
+
+
+.uo:hover{
+  opacity: 1;
+}
+
+button{
+    color: white;
+    background: #e72929;
+    border: none;
+    font-size: 1.2rem;
+    margin-left: 13vw;
+    padding: 1rem;
+    font-family: permanent marker;
+    margin-top: 1vh;
+    transform: skew(-15deg, 0);
+    outline: none;
+    opacity: 0.8;
+  }
+  
+  button:hover{
+   background-color:red;
+       opacity: 0.9;
+    cursor: pointer;
+  }

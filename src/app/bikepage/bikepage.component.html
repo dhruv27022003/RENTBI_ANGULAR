@@ -1,0 +1,43 @@
+
+<app-not-found
+[visible]="!bike.id"
+notFoundMessage="Food Not Found"
+resetLinkText="Back To Homepage">
+</app-not-found>
+
+
+<div *ngIf="bike.id" class="contai" >
+
+    <img [src]="bike?.url"  [alt]="bike?.name" height="100%">
+  <div class="uo">
+      
+     <h1 class="naam">{{bike?.name}}</h1>
+    
+     <h4
+     style="
+     margin-top: 3vh;
+     "
+     
+     >Rs.{{bike?.price}} /day  </h4>
+<div class="tag">
+  <app-tags [bikepagetags]="bike?.tags" ></app-tags>
+</div>
+
+<h5 style="font-style: normal;
+
+position: relative;
+left: 29%;
+margin-top: 3vh;
+">  {{bike?.star}}/5 ★ </h5>
+<h5
+style="font-style: normal;
+margin-top: 1vh;
+position: relative;
+left: 20%;"
+
+>Milage:{{bike?.mileage}}kmpl</h5>
+
+   </div>
+   <button (click)="addToCart()">CHOOSE</button>
+</div>
+
