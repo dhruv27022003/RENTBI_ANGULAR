@@ -1,7 +1,7 @@
 <div *ngIf="tags">
  <a *ngFor="let tag of tags" class="yo"
     routerLink="/tag/{{tag.name}}"
-    >{{tag.name}} <a class="bb">{{tag.count}} </a> </a>
+    >{{tag.name}} </a>
 </div>
 <div *ngIf="bikepagetags">
     <a *ngFor="let tagname of bikepagetags" class="yo"

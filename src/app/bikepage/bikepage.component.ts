@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { BikeService } from '../services/bike/bike.service';
 import { CartService } from '../services/cart/cart.service';
-import { bikes } from '/Users/dhruvdadheech/Desktop/web d/angular/untitled folder/rentbi/src/app/shared/models/bike';
+import { bikes } from '../shared/models/bike';
 @Component({
   selector: 'app-bikepage',
   templateUrl: './bikepage.component.html',
